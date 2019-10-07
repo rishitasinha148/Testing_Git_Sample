@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  		<run>
+  			<exclude name="functional"></exclude>
+  		</run> 
+  </groups>
+    <classes>
+      <class name="com.guru99.testcases.BaseClass"/>
+      <class name="com.guru99.testcases.Login_validation_framework"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
